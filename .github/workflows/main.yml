@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Hello Line 1
           echo Hello Line 2
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: Hello Test
+        run: echo Hello Test
